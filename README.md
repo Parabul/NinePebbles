@@ -5,6 +5,12 @@ Nine Pebbles (Togyzkumalak) -  nomad's board game
 
 ## Background 
 ### About the game
+Togyzkumalak, is a traditional board game played in Central Asia, particularly in Kazakhstan and Kyrgyzstan. The name "Togyzkumalak" translates to "nine pebbles" in the Kazakh language. The game is part of the mancala family, which includes various games played with small stones or seeds and rows of holes or pits on a board.
+
+The game is typically played on a special board with two rows of nine pits or cups, each representing a player's side. Small stones, seeds, or other playing pieces are placed in the pits, and players take turns sowing the pieces around the board according to specific rules.
+
+The objective of the game is to capture more seeds than your opponent. The game involves strategic thinking, as players must decide when to sow seeds and when to capture their opponent's seeds. Togyzkumalak has a rich cultural history and is often played in social gatherings, providing entertainment and a way for people to connect.
+
 ### About game theory
 
 ## Design overview

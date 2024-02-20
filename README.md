@@ -76,8 +76,6 @@ Apache Beam Pipeline generates Monte Carlo Search Tree (most promissing game sta
     pipeline.run();
 ```
 
-![alt text](https://github.com/Parabul/NinePebbles/blob/main/img/pipeline_graph.png?raw=true)
-
 ### Tensorflow model
 ```python
 # Inputs

@@ -76,7 +76,50 @@ Apache Beam Pipeline generates Monte Carlo Search Tree (most promissing game sta
     pipeline.run();
 ```
 
+![alt text](https://github.com/Parabul/NinePebbles/blob/main/img/pipeline_graph.png?raw=true)
+
 ### Tensorflow model
+```python
+# Inputs
+score = layers.Input(shape=(2,), name='score')
+special = layers.Input(shape=(2,), name='special')
+board = layers.Input(shape=(18,), name='board')
+next = layers.Input(shape=(1,), name='next')
+
+# Score sub-model
+model_score = layers.Dense(2, activation="relu")(score)
+model_score = keras.Model(name='model_score', inputs=score, outputs=model_score)
+
+# Special sub-model
+model_special = layers.CategoryEncoding(name="multi_hot", num_tokens=18, output_mode="multi_hot")(special)
+model_special = keras.Model(name='model_special', inputs=special, outputs=model_special)
+
+# Board sub-model
+model_board = layers.Reshape((2, 9, 1))(board)
+model_board = layers.Conv2D(16, (2, 3), padding='same', activation='relu')(model_board)
+model_board = layers.Conv2D(32, (2, 3), padding='same', activation='relu')(model_board)
+model_board = layers.Flatten()(model_board)
+model_board = layers.Dense(64, activation="relu")(model_board)
+model_board = keras.Model(name='model_board', inputs=board, outputs=model_board)
+
+# Next move sub-model
+model_next = layers.Dense(1, activation="relu")(next)
+model_next = keras.Model(name='model_next', inputs=next, outputs=model_next)
+
+# Combine the output of the all branches
+ensemble = layers.concatenate([model_score.output, model_special.output, model_board.output, model_next.output])
+model_ensemble = layers.Dense(320, activation="relu")(ensemble)
+model_ensemble = layers.Dense(3, name="output", activation='softmax')(model_ensemble)
+
+model = keras.Model(name='model_ensemble', inputs=[model_score.input, model_special.input, model_board.input, model_next.input],
+                    outputs=model_ensemble)
+
+model.summary()
+
+```
+
+![alt text](https://github.com/Parabul/NinePebbles/blob/main/img/model.png?raw=true)
+
 #### Model evaluation
 ### Flutter/Dart
 

@@ -39,7 +39,8 @@ In the realm of strategic board games, the synergy between deep neural networks 
 The process involves iteratively refining the neural network's understanding of the game through self-play and reinforcement learning. With each iteration, the network becomes more adept at predicting moves and assessing game states accurately. By combining the insights from neural networks with the search capabilities of MCTS, these systems achieve remarkable gameplay performance, outmaneuvering even top human players.
 
 ## Implementation details
-### Money Carlo Tree Search
+### Monte Carlo Tree Search
+
 ### Apache Beam pipeline
 Apache Beam Pipeline generates Monte Carlo Search Tree (most promissing game states with corresponding outcomes). See details in https://github.com/Parabul/game.
 ```java

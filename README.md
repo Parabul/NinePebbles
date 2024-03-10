@@ -1,5 +1,6 @@
 # NinePebbles
 Nine Pebbles (Togyzkumalak) -  nomad's board game
+![game_screen](https://github.com/Parabul/NinePebbles/blob/main/img/game_screen.JPG?raw=true)
 
 <a href='https://play.google.com/store/apps/details?id=kz.ninestones.game_client&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png' style="width:200px"/></a>
 
@@ -117,7 +118,7 @@ model.summary()
 
 ```
 
-![alt text](https://github.com/Parabul/NinePebbles/blob/main/img/model.png?raw=true)
+![model_topology](https://github.com/Parabul/NinePebbles/blob/main/img/model.png?raw=true)
 
 #### Model evaluation
 ### Flutter/Dart

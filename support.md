@@ -10,7 +10,8 @@ We appreciate your passion for Nine Pebbles and are here to ensure you have a se
 
 Best regards,
 
-The Nine Pebbles Support Team
+The Nine Pebbles Support Team<br/>
+ninestones.dev@gmail.com
 <hr/>
 <a href="mailto:ninestones.dev@gmail.com?subject=%5BNine%20Pebbles%5D%20User%20report">Contact Support</a>
                                                                                                         

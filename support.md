@@ -17,3 +17,13 @@ ninestones.dev@gmail.com
                                                                                                         
                                                                                                         
 <a href="https://github.com/Parabul/NinePebbles/issues/new">Report an issue on Github</a> (need an account)
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZBQ4W8WQ1X"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-ZBQ4W8WQ1X');
+</script>

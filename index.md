@@ -1,4 +1,4 @@
-# Nine Pebbles: Traditional Central Asian Board Game
+# Traditional Central Asian Board Game
 
 > "Toguz kumalak is both enjoyable and educational. This game is great for those who have a flair for art and perfect for children. You have to play strictly according to > the rules, and at the same time you must use your imagination and intuition. Like music, this game can't become an elitist pursuit. It acquires genuine value only when it
 > becomes common property."

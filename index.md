@@ -17,7 +17,7 @@ Nine Pebbles, known as Togyzkumalak in the Kazakh language, is a traditional boa
 Nine Pebbles is played on a unique board with two rows of nine pits or cups, representing each player's side. The objective is to capture more seeds than your opponent by sowing them strategically around the board, following specific rules.
 
 ## Key Features
-
+- **Free**, **No Ads**, **No Internet needed**: Dive into immersive gameplay anytime, anywhere!
 - **Authentic Gameplay:** Experience the traditional gameplay of Nine Pebbles faithfully recreated for digital platforms.
 - **Strategic Depth:** Engage in thoughtful decision-making as you sow seeds and capture your opponent's pieces to gain an advantage.
 - **Cultural Significance:** Immerse yourself in the rich cultural history of Central Asia through this beloved board game.

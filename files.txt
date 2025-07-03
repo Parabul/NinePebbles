@@ -1,0 +1,8 @@
+TsvHttpData-1.0
+https://data.rees46.com/datasets/marketplace/2019-Oct.csv.gz
+https://data.rees46.com/datasets/marketplace/2019-Nov.csv.gz
+https://data.rees46.com/datasets/marketplace/2019-Dec.csv.gz
+https://data.rees46.com/datasets/marketplace/2020-Jan.csv.gz
+https://data.rees46.com/datasets/marketplace/2020-Feb.csv.gz
+https://data.rees46.com/datasets/marketplace/2020-Mar.csv.gz
+https://data.rees46.com/datasets/marketplace/2020-Apr.csv.gz
